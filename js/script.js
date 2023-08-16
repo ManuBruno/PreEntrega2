@@ -199,8 +199,8 @@ while (true) {
           );
           pagoEfectivo();
           break;
-        case "débito":
-        case "crédito":
+        case "debito":
+        case "credito":
         case "mercado pago":
           const confirmacionMetodo = prompt(
             `Confirmar pago con ${metodoPago}. Escriba si o no.`
