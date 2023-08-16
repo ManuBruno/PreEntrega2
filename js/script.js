@@ -205,7 +205,7 @@ while (true) {
           const confirmacionMetodo = prompt(
             `Confirmar pago con ${metodoPago}. Escriba si o no.`
           );
-          if (confirmacionMetodo.toLowerCase() === "sí") {
+          if (confirmacionMetodo.toLowerCase() === "si") {
             alert(
               `¡Pago exitoso con ${metodoPago}! Su compra ha sido completada.`
             );
